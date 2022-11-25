@@ -28,14 +28,11 @@ function bar(x){
 console.log(bar(6)); // l'output sera de ?
 ```  
 
-En exécutant ce code on va regarder en premier la fonction principale, là où tout commence. On démarre donc depuis :  
-```javascript
-console.log(bar(6));
-```
-qui est ensuite poussée dans la stack (pile). La frame suivante (cadre) est donc la fonction **bar** et ses arguments qui à 
-son tour appelle la function **foo** qui est encore remise tout en haut de la stack et puisque son return est immédiat 
-elle est finalement ejectée de la stack. Après coup **bar** est ejectée (popped out) également pour finalement obtenir
-notre console.log qui va print l'output.  
+En exécutant ce code on va regarder en premier la fonction principale, là où tout commence. On démarre donc depuis : 
+`console.log(bar(6))` qui est ensuite poussée dans la stack (pile). La frame suivante (cadre) est donc la fonction 
+**bar** et ses arguments qui à son tour appelle la function **foo** qui est encore remise tout en haut de la stack 
+et puisque son return est immédiat elle est finalement ejectée de la stack. Après coup **bar** est ejectée (popped out) 
+également pour finalement obtenir notre console.log qui va print l'output.
 
 >Une façon simple de conceptualiser la stack finalement est de la comparer à une pile d'assiette
 > : première assiette posée, dernière à être retirée, dernière ajoutée à la   

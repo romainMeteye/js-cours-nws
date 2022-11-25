@@ -33,7 +33,7 @@ console.log(data);
 Avec une requête comme celle-ci, exécutée par exemple par le clic d'un bouton, voici ce qu'il se passe :  
 
 - La requête est exécutée puis elle est traitée par le navigateur et les web apis ;
-- Si la stack le permet et que la Promise est fulfilled alors le callback est exécutée et le résultat peut-être affiché.  
+- Si la stack le permet et que la Promise est fulfilled alors le callback est exécuté et le résultat peut-être affiché.  
 
 Le rôle de l'event loop est de vérifier à la fois l'état de la stack et de la queue pour y insérer la première chose
 disponible dans la queue vers la stack, **quand la stack est vide**. En effet les WEB APIs ne peuvent pas d'elles-mêmes

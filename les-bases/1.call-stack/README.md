@@ -1,4 +1,4 @@
-# Les call stacks ?
+# La call stack ?
 
 ## « Pile d'exécution »
 

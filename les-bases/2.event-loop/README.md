@@ -47,4 +47,11 @@ dans le code.
 
 Illustration complémentaire pour un peu plus de clarté, avec un setTimeout() :
 
-![Event loop](event-loop-figure.png)
+![Event loop](event-loop-figure.png)  
+
+Pour déterminer s'il est possible d'ajouter des éléments à la stack, l'event loop envoie des ticks à la stack.
+
+> Rappel :  
+> L'agument passé à setTimout() n'est pas une valeur sûre. Cet argument correspond davantage au délai minimum mais pas
+> à un délai **garanti**. Par exemple setTimeout(maFonction(),100); indique uniquement que maFonction sera lancé au moins 
+> après 100 millisecondes.

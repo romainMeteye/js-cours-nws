@@ -41,12 +41,21 @@ et puisque son return est immédiat elle est finalement ejectée de la stack. Ap
 #### Visualiser la stack  
 
 Vous avez certainement déjà vu cette longue erreur rouge (stack trace). Cette erreur indique l'état actuel de la call
-stack et indique où la function a échoué du haut vers le bas, tout comme la stack finalement. Pour visualiser ça,
-exécuter le html et cliquer sur le bouton.  
+stack et indique où la function a échoué du haut vers le bas, tout comme la stack finalement.
 
 Parfois on obtient une boucle infinie quand on appelle les functions de façon récursive. Il existe une limite à la
 stack. Pour Chrome par exemple elle est de 16 000 frames. Ajoutez plus de stack et Chrome se chargera lui-même de tout 
 kill à votre place.
+
+## TP / stack trace :  
+
+Dans index.html vous trouverez un fichier html déjà prêt dans lequel vous devez ajouter le script.js.
+Dans index.js vous devez écrire une fonction qui va ajouter un bouton au dom. Au clic ce bouton on va appeler plusieurs
+fonctions (err, main, last) :  
+
+1. La fonction start() doit contenir un console.log() indiquant son départ ;
+2. La fonction err() doit envoyer une erreur dans la console ;
+3. La fonction last() doit afficher la stack trace dans la console.
 
 ## Le tas (Heap)  
 

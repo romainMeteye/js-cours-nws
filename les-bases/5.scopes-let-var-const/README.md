@@ -134,7 +134,7 @@ Pour cela, vous allez créer une fonction `isAuthorized` qui prend en paramètre
 Exemple : 
 
 ```javascript
-var authorized = false;
+let authorized = false;
 
 function isAuthorized(userAge) {
   // TODO: ajouter votre code ici

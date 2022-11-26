@@ -51,7 +51,7 @@ kill à votre place.
 
 Dans index.html vous trouverez un fichier html déjà prêt dans lequel vous devez ajouter le script.js.
 Dans index.js vous devez écrire une fonction qui va ajouter un bouton au dom. Au clic ce bouton on va appeler plusieurs
-fonctions (err, main, last) :  
+fonctions (err, start, last) :  
 
 1. La fonction start() doit contenir un console.log() indiquant son départ ;
 2. La fonction err() doit envoyer une erreur dans la console ;

@@ -3,7 +3,7 @@
 ## « Pile d'exécution »
 
 Javascript est un langage dit "single thread" ce qui signifie qu'il ne peut gérer qu'une seule tâche à la fois ou un morceau 
-de code. On dit donc qu'il n'a qu'une pile d'exécution, autrement dit : un seul call stack, le tout correspond donc à 
+de code. On dit donc qu'il n'a qu'une pile d'exécution, autrement dit : une seule call stack, le tout correspond donc à 
 un modèle qu'on nomme « Javascript Concurrency Model », implémenté depuis dans le moteur [V8](https://v8.dev/).
 
 ### Pourquoi ?  

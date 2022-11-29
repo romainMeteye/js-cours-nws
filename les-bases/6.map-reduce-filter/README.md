@@ -35,7 +35,7 @@ console.log(doubledNumbersArray); // [2, 4, 6, 8, 10]
 
 ### Comment ça marche ?
 
-La fonction map prend une fonction en argument et retourne un nouveau tableau. Cette fonction est appelée pour chaque
+La method map prend une fonction en argument et retourne un nouveau tableau. Cette fonction est appelée pour chaque
 élément du tableau et le résultat de cette fonction est ajouté au nouveau tableau. Le tableau original n'est pas
 modifié.
 

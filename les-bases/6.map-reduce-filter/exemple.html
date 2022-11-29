@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MAP - REDUCE - FILTER</title>
+  </head>
+  <body></body>
+
+  <script>
+    const pages = {
+      data: [
+        {
+          id: 1,
+          attributes: {
+            title: 'Les Coachs',
+            createdAt: '2022-11-05T13:04:17.704Z',
+            updatedAt: '2022-11-17T03:41:30.591Z',
+            publishedAt: '2022-11-05T13:13:19.595Z',
+            slug: 'coachs',
+            content: 'Les coachs',
+            banner: false,
+          },
+        },
+        {
+          id: 5,
+          attributes: {
+            title: 'Gym Loisirs',
+            createdAt: '2022-11-06T10:52:55.164Z',
+            updatedAt: '2022-11-23T10:41:17.537Z',
+            publishedAt: '2022-11-06T10:52:55.803Z',
+            slug: 'gym-loisirs',
+            content:
+              'La Gym loisirs est une pratique de la gymnastique, sans les contraintes de la compétition, ce qui permet d’apprendre, de progresser tout en restant dans un domaine tout à fait ludique. ',
+            banner: true,
+          },
+        },
+      ],
+    };
+
+    const pagesArray = pages.data.map((page) => {
+      const { id, attributes } = page;
+      const { title, slug, content, banner } = attributes;
+      return {
+        id,
+        title,
+        slug,
+        content,
+        banner,
+        gymPage: title.includes('Gym'),
+      };
+    });
+
+    const displayPages = pagesArray.map((page) => {
+      return `<div class="page">
+        <h2>
+        ${page.gymPage ? 'Gym page' : 'Not a gym page'}
+        </h2>
+        <p>${page.content}</p>
+        </div>`;
+    });
+
+    const container = document.createElement('div');
+
+    container.innerHTML = displayPages.join('');
+
+    document.body.appendChild(container);
+  </script>
+</html>

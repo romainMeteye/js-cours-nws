@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MAP - REDUCE - FILTER</title>
+  </head>
+  <body></body>
+
+  <script>
+    const coachs = fetch('https://api.egrouen.net/api/coachs?filters[degree][$null]')
+      .then((response) => response.json())
+      .then((data) => {
+        data = data.data;
+        return data;
+      });
+
+    coachs.then((data) => {
+      // TODO: afficher les coachs suivi du nombre de coachs total
+    });
+  </script>
+</html>

@@ -288,8 +288,9 @@ console.log(bookTitles); // ['Lord of the Rings', 'Game of Thrones']
 
 ## TP / Exercice
 
-À partir de ce endpoint : `https://api.egrouen.net/api/coachs?filters[degree][$null]`, afficher la liste des coachs dans un tableau HTML.
-Vous ne devez afficher que les coachs qui ont un `degree` égal à content le mot "licence". Nous n'avons pas besoin de 
+À partir de ce endpoint : `https://api.egrouen.net/api/coachs?filters[degree][$null]`, afficher la liste des coachs
+dans le DOM.  
+Vous ne devez afficher que les coachs qui ont un `degree` qui contient le mot "Licence". Nous n'avons pas besoin de 
 ces informations : `createdAt`, `updatedAt`, `publishedAt`, `bio`, `slug`.
 Enfin vous devrez afficher le nombre de coachs dans un paragraphe HTML juste en dessous du tableau.
 

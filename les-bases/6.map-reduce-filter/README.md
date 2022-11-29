@@ -13,7 +13,7 @@ renvoyer des résultats différents à différentes exécutions. Un changement d
 
 Une des clés fondamentales de la programmation fonctionnelle est son utilisation de listes et d'opérations de liste. 
 En Javascript, nous avons map, filter et reduce, toutes des fonctions qui, étant donné une liste initiale (tableau : 
-array), la transforment en quelque chose d'autre, tout en conservant cette même liste d'origine intacte.
+array), la transforme en quelque chose d'autre, tout en conservant cette même liste d'origine intacte.
 
 ## Map
 

@@ -6,6 +6,7 @@ Les types primitifs sont les types de base de JavaScript et sont au nombre de 5 
 - `boolean`
 - `null`
 - `undefined`
+- `symbol` (nouveau depuis ES6)
 
 Tous les autres types sont des objets.
 
@@ -53,6 +54,28 @@ Ce type représente une valeur non définie.
 
 ```javascript
 let undef;
+```
+
+### Symbol
+
+Ce type représente une valeur unique et immuable. 
+
+```javascript
+const sym = Symbol('foo');
+```
+
+### Explication de Symbol
+
+Les symboles sont des valeurs uniques et immuables. Ils sont utilisés comme clés pour les propriétés d'objets. 
+
+```javascript
+const sym = Symbol('foo');
+
+const obj = {
+  [sym]: 'bar'
+};
+
+console.log(obj[sym]); // bar
 ```
 
 ## Conversion de type  
@@ -126,3 +149,6 @@ const display = bool && 'Hello World'; // 'Hello World'
 
 On peut aussi utiliser les opérateurs `||` et `!`. Qui sont respectivement l'opérateur OU et l'opérateur NON.
 
+## Ressources complémentaires : 
+
+- [MDN - Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)

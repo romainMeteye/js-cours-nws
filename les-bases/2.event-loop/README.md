@@ -55,3 +55,8 @@ Pour déterminer s'il est possible d'ajouter des éléments à la stack, l'event
 > L'agument passé à setTimout() n'est pas une valeur sûre. Cet argument correspond davantage au délai minimum mais pas
 > à un délai **garanti**. Par exemple setTimeout(maFonction(),100); indique uniquement que maFonction sera lancé au moins 
 > après 100 millisecondes.
+
+## Ressources complémentaires : 
+
+- [MDN - Event loop](https://developer.mozilla.org/fr/docs/Web/JavaScript/EventLoop)
+- [MDN - Web APIs](https://developer.mozilla.org/fr/docs/Web/API)

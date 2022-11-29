@@ -73,4 +73,6 @@ callback existe.
 > Par exemple : si un utilisateur clique sur bouton et qu'aucun callback n'est associé alors le message ne sera pas
 > placé dans la queue.
 
-
+## Ressources complémentaires : 
+- [Call Stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+- [Stack Overflow](https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap)

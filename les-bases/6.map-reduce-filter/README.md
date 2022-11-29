@@ -295,3 +295,9 @@ ces informations : `createdAt`, `updatedAt`, `publishedAt`, `bio`, `slug`.
 Enfin vous devrez afficher le nombre de coachs dans un paragraphe HTML juste en dessous des coachs.  
 
 Utilisez le fichier `index.html`.
+
+## Ressources complémentaires :
+
+- [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)

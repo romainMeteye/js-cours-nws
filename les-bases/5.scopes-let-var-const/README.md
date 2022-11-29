@@ -142,3 +142,10 @@ function isAuthorized(userAge) {
 
 authorized = isAuthorized(42);
 ```
+
+## Ressources complémentaires : 
+
+- [MDN - Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+- [MDN - var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+- [MDN - let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+- [MDN - const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)

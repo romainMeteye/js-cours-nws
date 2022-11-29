@@ -5,7 +5,7 @@ que son exécution est rapide, ne bloque pas le thread. Par contre si on se met 
 milliers ou millions de lignes (avec for ou même while) alors là la stack va être rapidement pleine. C'est ce qu'on 
 nomme blocking script.
 
-## Comment pallier à ça ?  
+## Comment pallier ça ?  
 
 La solution la plus simple est d'utiliser des callbacks asynchrones. Une partie du code qu'on exécute et à laquelle on
 rajoute donc un callback (fonction) qu'on exécutera plus tard. Cela peut être setTimeout(), setInterval(), un Promise,

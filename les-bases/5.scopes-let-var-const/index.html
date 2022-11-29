@@ -7,11 +7,36 @@
     <form>
       <label for="number1">Enter a number :</label>
       <input type="number" id="number1" />
-      <input type="submit" value="Envoyer" />
+      <input type="submit" value="Envoyer" onclick="getValue();" />
     </form>
   </body>
 
   <script>
-    // TODO: obtenir la valeur du champ de saisie pour verifier si l'accès est autorisé
+    function getValue() {
+    let authorized = false;
+    const age = document.getElementById('number1').value;
+    // const age = document.querySelectorById('number1');
+    const submit = document.querySelector("input[Type='submit']");
+    isAuthorized(age);
+    };
+
+  function isAuthorized(userAge) {
+    return userAge >=18 ;
+};
+
+  submit.addEventLisner('click' , function (event) {
+    event.preventDefault();
+    authorized = isAuthorized(age.value);
+
+    if (authorized) {
+      document.body.innerHTML('Autorisé');
+      document.body.style.color = 'green';
+    }
+    else {
+      document.body.innerHTML('Non autorisé');
+      document.body.style.color = 'red';
+    }
+  });
+
   </script>
 </html>

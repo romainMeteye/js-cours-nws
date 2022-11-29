@@ -12,9 +12,17 @@
         data = data.data;
         return data;
       });
-
-    coachs.then((data) => {
-      // TODO: afficher les coachs suivi du nombre de coachs total
-    });
+      
+      coachs.then((data) => {
+        var filtre = 'License';
+        const coachsNames = data.map((coach) => {
+          const {attributes} = coach;
+          const {name,degree} = coach.attributes;
+            return name;
+          }).filter((coach) => 
+            coach.degree.includes(filtre)
+          );
+        console.log(coachsNames);
+        });
   </script>
 </html>

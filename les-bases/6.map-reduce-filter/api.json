@@ -1,0 +1,143 @@
+{
+	"data": [{
+		"id": 3,
+		"attributes": {
+			"name": "Audrey",
+			"bio": "Je m’appelle Audrey Blanquet, je suis actuellement en deuxième année de licence STAPS et je suis en service civique à l’ EGR.",
+			"createdAt": "2022-11-17T02:26:49.446Z",
+			"updatedAt": "2022-11-17T05:11:50.979Z",
+			"publishedAt": "2022-11-17T05:11:50.976Z",
+			"degree": "Licence PRO (Gestion sportive)",
+			"slug": "audrey"
+		}
+	}, {
+		"id": 9,
+		"attributes": {
+			"name": "Agnès",
+			"bio": "Je suis une personne énergique et volontaire. J’aime mon métier et j’aime faire partager mon expérience auprès de tout public.",
+			"createdAt": "2022-11-17T03:38:35.388Z",
+			"updatedAt": "2022-11-17T05:39:37.156Z",
+			"publishedAt": "2022-11-17T03:38:36.797Z",
+			"degree": "BE1 (Gymnastique féminine)",
+			"slug": "agnes"
+		}
+	}, {
+		"id": 6,
+		"attributes": {
+			"name": "Louis",
+			"bio": null,
+			"createdAt": "2022-11-17T03:22:16.870Z",
+			"updatedAt": "2022-11-17T05:40:37.998Z",
+			"publishedAt": "2022-11-17T03:25:34.626Z",
+			"degree": "Licence STAPS",
+			"slug": "louis"
+		}
+	}, {
+		"id": 5,
+		"attributes": {
+			"name": "Marine",
+			"bio": "Je m’appelle Marine Gain Thomas, j’ai 20 ans, je suis en deuxième année de STAPS, j’ai commencé la GAF il y a 6 ans et j’ai pratiqué 3 ans d’aérobic. Depuis le 22 février 2022, je suis en mission Service Civique à L’EGR.",
+			"createdAt": "2022-11-17T03:16:42.850Z",
+			"updatedAt": "2022-11-17T05:40:44.384Z",
+			"publishedAt": "2022-11-17T03:16:44.432Z",
+			"degree": "Licence PRO (Gestion sportive)",
+			"slug": "marine"
+		}
+	}, {
+		"id": 4,
+		"attributes": {
+			"name": "Aurélie",
+			"bio": "J’ai commencé la gym à l’age de 9 ans, et je suis diplômée d’etat depuis 2004. Je suis à l’EGR depuis 2017.",
+			"createdAt": "2022-11-17T02:36:53.086Z",
+			"updatedAt": "2022-11-17T05:40:04.681Z",
+			"publishedAt": "2022-11-17T02:37:15.593Z",
+			"degree": "Titulaire d’un BEES Activités GAF ",
+			"slug": "aurelie"
+		}
+	}, {
+		"id": 11,
+		"attributes": {
+			"name": "Valérie",
+			"bio": "Je suis diplômée du BEAECPC (Brevet d’État d’Aptitude à l’Enseignement de la Culture Physique et du Culturisme) à l’Institut Régional Sport Santé de Cholet. Je travaille à l’EGR depuis 1992 dans la section Remise en Forme. J’encadre les adhérents en salle de musculation et anime des cours collectifs. Depuis 2019, je suis formée en PILATES. Depuis début janvier 2022, j’encadre également toutes les actions de Sport-Santé.",
+			"createdAt": "2022-11-17T09:15:54.412Z",
+			"updatedAt": "2022-11-17T09:15:56.624Z",
+			"publishedAt": "2022-11-17T09:15:56.620Z",
+			"degree": "Diplômée du BEAECPC (Brevet d’Etat d’Aptitude à l’Enseignement de la Culture Physique et du Culturisme)",
+			"slug": "valerie"
+		}
+	}, {
+		"id": 8,
+		"attributes": {
+			"name": "Cécile",
+			"bio": "Fidèle à la gymnastique depuis l’âge de 6 ans, j’ai parcouru tous les chemins possibles de ce sport à travers le monde, en tant que gymnaste puis entraîneur. \nLe tout en réussissant dans ma vie privé, avec deux grands enfants et un mariage de plus de 35 ans.",
+			"createdAt": "2022-11-17T03:32:02.699Z",
+			"updatedAt": "2022-11-17T05:40:12.051Z",
+			"publishedAt": "2022-11-17T03:32:04.709Z",
+			"degree": "BE2 (Gymnastique féminine)",
+			"slug": "cecile"
+		}
+	}, {
+		"id": 7,
+		"attributes": {
+			"name": "Éric",
+			"bio": " Fils d’une famille d’agriculteur, je n’étais pas destiné à devenir entraîneur de gymnastique mais la vie en a décidé autrement. Avant la gym, j’ai travaillé dans l’industrie, j’ai fabriqué des skis et animé des soirées en DJ amateur. J’ai longtemps joué au football, je fais beaucoup de vélo et différents autres sports de plein aire. Entraîneur national dans 5 pays (Suisse/France/Mexique/Turquie et Egypte), j’ai aussi travaillé en Belgique. Cela fait 35 ans que je suis coach dont 20 ans au niveau international. J’ai créé la 1ière Académie de Gymnastique privé en France, l’AGI (Académie de Gymnastique Internationale). ",
+			"createdAt": "2022-11-17T03:29:04.000Z",
+			"updatedAt": "2022-11-17T05:40:18.901Z",
+			"publishedAt": "2022-11-17T03:29:05.306Z",
+			"degree": "BE2 (Gymnastique féminine)",
+			"slug": "eric"
+		}
+	}, {
+		"id": 10,
+		"attributes": {
+			"name": "Kassandra",
+			"bio": "Je m’appelle Kassandra, mais je préfère que l’on me surnomme Kassou, j’ai pratiqué durant 16 ans et j’ai continué sur l’entraînement par la suite. J’aime transmettre ma passion et toute la discipline de la beauté de ce sport.",
+			"createdAt": "2022-11-17T03:41:05.467Z",
+			"updatedAt": "2022-11-17T05:40:30.534Z",
+			"publishedAt": "2022-11-17T03:41:06.879Z",
+			"degree": "Licence (Entraînement sportif)",
+			"slug": "kassandra"
+		}
+	}, {
+		"id": 13,
+		"attributes": {
+			"name": "Cédric",
+			"bio": "Je m’appelle Cédric, je suis à l’EGR en tant que coach sportif depuis 2004.",
+			"createdAt": "2022-11-17T09:21:00.916Z",
+			"updatedAt": "2022-11-17T09:21:02.347Z",
+			"publishedAt": "2022-11-17T09:21:02.343Z",
+			"degree": "Diplômé du Brevet d’État d’Éducateur Sportif métiers de la forme",
+			"slug": "cedric"
+		}
+	}, {
+		"id": 14,
+		"attributes": {
+			"name": "Sandrine",
+			"bio": "Je m’appelle Sandrine, je suis coach sportive depuis 2009 à l’EGR.",
+			"createdAt": "2022-11-17T09:24:13.592Z",
+			"updatedAt": "2022-11-17T09:24:14.673Z",
+			"publishedAt": "2022-11-17T09:24:14.670Z",
+			"degree": "Diplômée du Brevet d’État d’Éducateur Sportif métiers de la forme",
+			"slug": "sandrine"
+		}
+	}, {
+		"id": 12,
+		"attributes": {
+			"name": "Justine",
+			"bio": "Je m’appelle Justine, j’ai 23 ans, après mon métier d’aide-soignante en hôpital, j’ai décidé d’aider les autres à prendre soin de leur santé autrement. C’est dans le sport que je m’épanouis aujourd’hui, en faisant rire, bouger, en partageant ma bonne humeur et mes sourires, même dans la difficulté d’un bon cours de sport intense. Bouger c’est pour son corps et aussi pour son esprit !  ",
+			"createdAt": "2022-11-17T09:18:19.348Z",
+			"updatedAt": "2022-11-24T22:57:40.669Z",
+			"publishedAt": "2022-11-17T09:18:20.566Z",
+			"degree": "Diplômée du Brevet Professionnel de la Jeunesse, de l’Éducation Populaire et du Sport (option cours collectifs, Musculation)",
+			"slug": "justine"
+		}
+	}],
+	"meta": {
+		"pagination": {
+			"page": 1,
+			"pageSize": 25,
+			"pageCount": 1,
+			"total": 12
+		}
+	}
+}
